@@ -1,0 +1,61 @@
+@font-face {
+    font-family: mifuente;
+    src: url(./fuente/coolvetica\ rg\ \(2\).otf);
+    font-weight: 400;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin: auto;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 1em;
+    background-color: #eff2ff;
+    border-radius: 15px 15px / 15px 15px ;
+    
+}
+
+#manzana{
+    width: 18%;
+    margin: auto;
+    
+}
+
+.img {
+    width: 25%;
+    margin: auto;
+}
+
+h1 {
+    font-family: mifuente;
+    font-weight: 400;
+    font-size: 120px;
+    color: #0a2ff1;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #0a2ff1;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+    margin: auto;
+    text-align: center;
+}
